@@ -11,4 +11,5 @@ export default defineConfig({
       types: "/src/types",
     },
   },
+  base: "/backendless/",
 });
