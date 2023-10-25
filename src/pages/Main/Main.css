@@ -1,0 +1,22 @@
+.main .tabs ul {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  gap: 10px;
+}
+
+.main .tabs ul li a {
+  background-color: rgb(25, 25, 25);
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.main .tabs ul li .active {
+  color: purple;
+}
+
+.main .tabs-content {
+  background-color: rgb(25, 25, 25);
+  border-radius: 7px;
+  padding: 10px 0;
+}
