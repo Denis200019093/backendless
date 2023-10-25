@@ -16,7 +16,7 @@ const App: FC = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Routes>
-        <Route path="/" element={<Main />}>
+        <Route path="/backendless" element={<Main />}>
           <Route path="dummyTable" element={<DummyTable />} />
           <Route path="dummyChart" element={<DummyChart />} />
           <Route path="dummyList" element={<DummyList />} />
