@@ -11,5 +11,5 @@ export default defineConfig({
       types: "/src/types",
     },
   },
-  base: "/backendless/",
+  base: "https://denis200019093.github.io/backendless/",
 });
